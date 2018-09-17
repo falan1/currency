@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+   <div class="content">
+   <table>
+  	<tr>
+  		<td id="logo"><img src="img/logo.png" title="лого"></td>
+  		<td><a href="#">Как проверить компанию?</a></td>
+  		<td><a href="#">Какие данные включены в отчёт?</a></td>
+  		<td><a href="#">Цена</a></td>
+  		<td id="hide_menu_button">
+  			<i class="fa fa-bars" aria-hidden="true"></i>
+  		</td>
+  	</tr>
+  </table>
+  </div>
+</header>
+<ul id="hide_menu">
+	<li><a href="#">Как проверить компанию?</a></li>
+  	<li><a href="#">Какие данные включены в отчёт?</a></li>
+  	<li><a href="#">Цена</a></li>
+</ul>
+<section id="main">
+    <div class="content">
+    	<h2>ПРОВЕРЬТЕ КОМПАНИЮ ЗА СЧИТАННЫЕ МИНУТЫ</h2>
+    	<p>Выписка из ЕГРЮЛ или ЕГРИП с электронной печатью-подписью ФНС, кто учредитель, кто директор, какие финансовые показатели, в каких торгах и судах участвует, индексовый анализ финансовых сведений, расчёт стоимости бизнеса, оценка кредитоспособности, имущество в залоге и в лизинге — все это можно получить всего за 500 рублей!</p>
+    	<a href="#search" class="button">ПРОВЕРИТЬ</a>
+    </div>
+</section>
+<section id="features">
+	<div class="content">
+    <div id="check">
+    	<h2>ЭКСПРЕСС ПРОВЕРКА</h2>
+    	<div>
+    	    <i class="fa fa-info" aria-hidden="true"></i><br><br>
+            <span>Получите полный анализ компании за 2 клика</span>
+        </div>
+        <div>
+    		<i class="fa fa-exclamation" aria-hidden="true"></i><br><br>
+    		<span>Сервис покажет все возможные риски от сотрудничества</span>
+    	</div>
+    	<div>
+    		<i class="fa fa-check" aria-hidden="true"></i><br><br>
+    		<span>Рекомендации помогут в принятии решения</span>
+    	</div>
+    	<div>
+    		<i class="fa fa-list-alt" aria-hidden="true"></i><br><br>
+    		<span>Отчёт экспресс-проверки как свидетельство о должной осмотрительности</span>
+    	</div>
+    	</div>
+    </div>
+</section>
+<section id="search">
+	<div class="content">
+		<h2>Введите ИНН контрагента</h2>
+		<form>
+			<i class="fa fa-search" aria-hidden="true"></i>
+			<input type="text" name="inn" placeholder="Введите ИНН/ОГРН/ФИО/Название компании">
+			<a class="button">ПРОВЕРИТЬ</a>
+		</form>
+	</div>
+</section>
+<section id="info">
+	<div class="content"> 
+		<h2>МЫ ЗНАЕМ ВСЁ</h2>
+		<div class="left">
+			<h4>Из всех источников</h4>
+			<table>
+			<tr>
+				<td><img src="img/nalog.png" title="Налоговая служба"></td>
+				<td><span>&nbsp;&nbsp;Налоговая служба</span></td>
+			</tr>
+			<tr>
+				<td><img src="img/stat.png" title="Служба статистки"></td>
+				<td><span>&nbsp;&nbsp;Служба статистки</span></td>
+			</tr>
+			<tr>
+				<td><img src="img/centrobank.png" title="Центральный банк"></td>
+				<td><span>&nbsp;&nbsp;Центральный банк</span></td>
+			</tr>
+			<tr>
+				<td><img src="img/sud.png" title="Верховный суд"></td>
+				<td><span>&nbsp;&nbsp;Верховный суд</span></td>
+			</tr>
+			<tr>
+				<td><img src="img/kazna.png" title="Казначейство"></td>
+				<td><span>&nbsp;&nbsp;Казначейство</span></td>
+			</tr>
+			<tr>
+				<td><img src="img/patent.png" title="Роспатент"></td>
+				<td><span>&nbsp;&nbsp;Роспатент</span></td>
+			</tr>
+		    </table>
+		</div>
+		<div class="right">
+			<h4>Самые полные сведения о всех компаниях</h4>
+			<p>
+				<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+				<span>Телефоны, адреса и контактный лица</span>
+			</p>
+			<p>
+				<i class="fa fa-balance-scale" aria-hidden="true"></i>
+				<span>Участие в торгах и госконтракты</span>
+			</p>
+			<p>
+				<i class="fa fa-archive" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+				<span>Свежие выписки из ЕГРЮЛ, ЕГРИП, РОССТАТа</span>
+			</p>
+			<p>
+				<i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;
+				<span>Финансовое состояние, стоймость бизнеса</span>
+			</p>
+			<p>
+				<i class="fa fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>Владельцы, аффилированые организации</span>
+			</p>
+			<p>
+				<i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>Сколько лет на рынке</span>
+			</p>
+			<p>
+				<i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>Какова численность сотрудников</span>
+			</p>
+        </div>
+	</div>
+</section>
+<footer>
+	<p>&copy; ООО «РАНФИН» Тензор-Сбис 2018</p>
+</footer>
+</body>
+</html>

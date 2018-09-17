@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+   height: 100%;
+   font-size: 24px;
+   font-family: 'Roboto', sans-serif;
+   color: #2b2a2a;
+}
+.content {
+  width: 85%;
+  margin: auto;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px 15px 25px;
+  color: white;
+  background-color: #337ab7;
+  outline: none;
+  border: 0;
+  font-size: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button:hover {
+  background-color: #235f94;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+header {
+  border-bottom: 4px solid #337ab7;
+  background-color: #f0f0f0;
+}
+#logo img {
+   width: 200px;
+   height: auto;
+}
+header table {
+  width: 100%;
+}
+header table td {
+  text-align: center;
+  width: 40%;
+}
+header table tr :nth-child(2) {
+  text-align: right;
+}
+#logo, header table tr :last-child {
+  text-align: left;
+  width: 10%;
+}
+#hide_menu_button {
+  display: none;
+  width: 100%;
+  padding-top: 50px;
+  text-align: right;
+}
+#hide_menu_button i {
+  transition: 0.5s;
+  font-size: 1.5em;
+  color: #337ab7;
+  cursor: pointer;
+}
+#hide_menu_button i:hover {
+  transform: scale(1.1);
+}
+#hide_menu {
+  display: none;
+  background-color: #f0f0f0;
+  position: absolute;
+  right: 0;
+  top: 146px;
+  z-index: 3;
+  padding:  30px;
+}
+#hide_menu li {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+  border-bottom: 2px solid #337ab7;
+}
+#hide_menu :last-child {
+  border-bottom: 0;
+}
+
+#main {
+  padding-top: 80px;
+  font-size: 1.2em;
+}
+#main h2 {
+  margin-bottom: 40px;
+}
+#main p {
+  width: 80%;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+  border-left: 4px solid #337ab7;
+}
+#features {
+  margin-top: 80px;
+  padding-top: 120px;
+  background-color: #f0f0f0;
+}
+#check {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+#check h2 {
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+#check div {
+  font-size: 0.9em;
+  text-align: center;
+  width: 22%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#check i {
+  color: #2b2a2a;
+  transition: 0.5s;
+  font-size: 2.5em;
+}
+#search {
+  padding-top: 180px;
+  padding-bottom: 120px;
+}
+#search h2 {
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 100px;
+}
+#search form {
+  width: 90%;
+  margin: auto;
+  padding-left: 10%;
+}
+#search i {
+  font-size: 1.5em;
+}
+#search input {
+  margin-left: 10px;
+  width: 70%;
+  height: 50px;
+  border: 0;
+  border-bottom: 2px solid #2b2a2a;
+  outline: none;
+  font-size: 1.2em;
+  padding-bottom: 4px;
+}
+#search input:focus {
+  border-bottom: 2px solid #337ab7;
+}
+#info>.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+#info {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+#info h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 80px;
+}
+#info h4 {
+  font-size: 1.5em;
+}
+.left {
+  width: 40%;
+}
+.right {
+  width: 60%;
+}
+.right i {
+  font-size: 2em;
+  color: #235f94;
+}
+#info p {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+#info img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 20px;
+}
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f0f0f0;
+  border-top: 4px solid #337ab7;
+}
+footer p {
+  text-align: center;
+}
+
+
+
+
+@media (max-width: 1436px) {
+  .left h4 {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 1348px) {
+  header tr :nth-child(2), header tr :nth-child(3), header tr :nth-child(4) {
+    display: none;
+  }
+  #hide_menu_button {
+    display: block;
+  }
+}
+@media (max-width: 1160px) {
+  .left , .right {
+    width: 100%;
+  }
+  .left {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1155px) {
+  #search input {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 1017px) {
+  #search input {
+    width: 65%;
+  }
+}
+@media (max-width: 954px) {
+  #check div {
+    margin-top: 50px;
+    width: 45%;
+  }
+}
+@media (max-width: 884px) {
+  #search .button {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 470px) {
+  #check div {
+    margin-top: 50px;
+    width: 100%;
+  }
+}
